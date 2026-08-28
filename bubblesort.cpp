@@ -17,7 +17,7 @@ int main() {
     
     bubbleSort(arr, n);
     
-    cout << "after sort: \n";
+    cout << "sorted: \n";
     for (int i = 0; i < n; i++)
         cout << arr[i] << " ";
     cout << endl;
