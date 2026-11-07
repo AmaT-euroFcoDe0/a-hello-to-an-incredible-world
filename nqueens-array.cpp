@@ -13,6 +13,8 @@ int main()
     int a[12];
     int count = 0;
 
+    solve(a, 0, n, count);
+
     std::cout << "TONG SO CACH XEP LA: " << count << '\n';
 
     return 0;
